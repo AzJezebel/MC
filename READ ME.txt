@@ -1,0 +1,22 @@
+Open with CMake -> Whe is the source code : Disk:/Path/Minecraft/Autre
+		   Where to build the binaries : Disk:/Path/Minecraft/Autre/Build
+Configure -> Generate -> Open Project
+
+Control :
+Déplacement __________________ : WASD
+Camera _______________________ : souris
+Capturer / libérer la souris _ : tab
+Quitter ______________________ : Esc
+Inventaire ___________________ : I
+Info debug ___________________ : f3
+Crouch _______________________ : ctrl
+Sprint _______________________ : shift
+Mode créatif / normal ________ : M
+Fly Down / Up ________________ : Q / E (mode créatif seleument)
+Pause ________________________ : P
+
+Make sure the sound is activated in Main.cpp l.53;
+If you wanna change frequency of creeper spawn tweak MIN_BEFORE_SPAWN and MAX_BEFORE_SPAWN in define.h
+Change MAX_ENEMIES to change nb of mob at the same time around your area;
+Attacking mob while falling will deal double damage as a Critic attack;
+Staying for a long time underwater will get you killed;
